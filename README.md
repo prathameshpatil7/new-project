@@ -2,6 +2,8 @@
 
 <img width="1463" height="548" alt="diagram-export-8-11-2025-11_32_00-PM" src="https://github.com/user-attachments/assets/926d6047-b0cb-49f4-a5a3-bda6de52bd64" />
 
+<img width="1920" height="1200" alt="Screenshot from 2025-08-10 11-51-37" src="https://github.com/user-attachments/assets/01b2c6e2-f510-42ea-8c04-b208bd032566" />
+
 
 ## **Phase 1: Install Jenkins in system**
 #### Install JAVA 21
