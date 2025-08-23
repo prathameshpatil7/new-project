@@ -8,9 +8,11 @@ pipeline {
         maven 'maven3'
     }
     environment {
+        DOCKERHUB_CREDS = credentials('dockerhub-creds')
         DOCKER_IMAGE_NAME = "patilprathamesh/petclinic"
         GITOPS_REPO_URL = "https://github.com/prathameshpatil7/petclinic-gitops.git"
         GITOPS_REPO_CREDS = 'gitops-repo-creds'
+        // SCANNER_HOME = tool 'sonar-scanner'
     }
 
 
@@ -60,6 +62,20 @@ pipeline {
                 script {
                     echo "Building Docker image: ${DOCKER_IMAGE_NAME}:${BUILD_NUMBER}"
                     docker.build(DOCKER_IMAGE_NAME + ":${BUILD_NUMBER}", ".")
+                }
+            }
+        }
+        
+        stage('Run Docker Container for Testing') {
+            steps {
+                script {
+                    echo "Running container for testing..."
+                    sh """
+                        docker run -d --name petclinic-test -p 8080:8080 ${DOCKER_IMAGE_NAME}:${BUILD_NUMBER}
+                        sleep 30
+                        docker ps
+                        docker logs petclinic-test
+                    """
                 }
             }
         }
