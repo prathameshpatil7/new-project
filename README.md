@@ -182,3 +182,19 @@ http://localhost:8080
 ---
 
 🔥 This pipeline ensures **secure, automated, and continuous delivery** of your Java application using modern DevOps practices.
+---
+
+SCREENSHOTS:
+<img width="1920" height="1110" alt="Screenshot from 2025-08-23 19-51-58" src="https://github.com/user-attachments/assets/9499cfdb-98fd-4d8a-950a-c7b15ea8fc00" />
+<img width="1920" height="1110" alt="Screenshot from 2025-08-23 19-51-50" src="https://github.com/user-attachments/assets/57b40985-7dc0-47f5-b258-9119bb62c559" />
+<img width="1920" height="1110" alt="Screenshot from 2025-08-23 19-45-54" src="https://github.com/user-attachments/assets/5c52f96b-93cb-40f6-8d0e-8ee97a4ea1c1" />
+<img width="1920" height="1110" alt="Screenshot from 2025-08-23 19-45-04" src="https://github.com/user-attachments/assets/0a484771-3806-48a6-8cde-f3b54429be54" />
+<img width="1920" height="1110" alt="Screenshot from 2025-08-23 19-43-50" src="https://github.com/user-attachments/assets/af8273f0-1323-4b82-ba68-70714b60ee15" />
+<img width="1920" height="1110" alt="Screenshot from 2025-08-23 19-43-57" src="https://github.com/user-attachments/assets/81d88873-b273-44a0-aff7-457825902c48" />
+<img width="1920" height="1110" alt="Screenshot from 2025-08-23 18-44-12" src="https://github.com/user-attachments/assets/019856ab-d3d3-4d7a-9e2b-f57971447ea8" />
+
+
+
+
+
+
